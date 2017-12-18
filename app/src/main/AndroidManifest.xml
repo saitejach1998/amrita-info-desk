@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.njlabs.amrita.aid" >
+    package="com.njlabs.amrita.aid">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -23,7 +23,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.Main"
-        tools:replace="android:icon" >
+        tools:replace="android:icon">
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -31,18 +31,14 @@
         <activity
             android:name=".landing.Landing"
             android:label="@string/app_name_alt"
-            android:theme="@style/Theme.Landing" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/Theme.Landing">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".about.Amrita"
             android:label="@string/title_activity_amrita"
             android:parentActivityName=".landing.Landing"
-            android:theme="@style/Theme.AboutAmrita" >
+            android:theme="@style/Theme.AboutAmrita">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".landing.Landing" />
@@ -50,7 +46,7 @@
         <activity
             android:name=".info.Calender"
             android:label="@string/title_activity_academic_calender"
-            android:parentActivityName=".landing.Landing" >
+            android:parentActivityName=".landing.Landing">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".landing.Landing" />
@@ -58,31 +54,27 @@
         <activity
             android:name=".aums.AumsActivity"
             android:label="@string/title_activity_aums"
-            android:parentActivityName=".landing.Landing" >
+            android:parentActivityName=".landing.Landing">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".landing.Landing" />
         </activity>
         <activity
             android:name=".aums.GradesActivity"
-            android:label="@string/title_activity_aums_grades" >
-        </activity>
+            android:label="@string/title_activity_aums_grades"></activity>
         <activity
             android:name=".aums.AttendanceActivity"
-            android:label="@string/title_activity_aums_attendance" >
-        </activity>
+            android:label="@string/title_activity_aums_attendance"></activity>
         <activity
             android:name=".aums.MarksActivity"
-            android:label="@string/title_activity_aums_marks" >
-        </activity>
+            android:label="@string/title_activity_aums_marks"></activity>
         <activity
             android:name=".aums.AumsResourcesActivity"
-            android:label="@string/title_activity_aums_resources" >
-        </activity>
+            android:label="@string/title_activity_aums_resources"></activity>
         <activity
             android:name=".info.Curriculum"
             android:label="@string/title_activity_curriculum"
-            android:parentActivityName=".landing.Landing" >
+            android:parentActivityName=".landing.Landing">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".landing.Landing" />
@@ -90,7 +82,7 @@
         <activity
             android:name=".info.TrainBusInfo"
             android:label="@string/title_activity_train_bus_info"
-            android:parentActivityName=".landing.Landing" >
+            android:parentActivityName=".landing.Landing">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".landing.Landing" />
@@ -98,7 +90,7 @@
         <activity
             android:name=".settings.SettingsActivity"
             android:label="@string/title_activity_settings"
-            android:parentActivityName=".landing.Landing" >
+            android:parentActivityName=".landing.Landing">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".landing.Landing" />
@@ -106,7 +98,7 @@
         <activity
             android:name=".about.App"
             android:label="@string/title_activity_about_app"
-            android:parentActivityName=".landing.Landing" >
+            android:parentActivityName=".landing.Landing">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".landing.Landing" />
@@ -114,7 +106,7 @@
         <activity
             android:name=".gpms.ui.GpmsActivity"
             android:label="@string/title_activity_gpms"
-            android:parentActivityName=".landing.Landing" >
+            android:parentActivityName=".landing.Landing">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".landing.Landing" />
@@ -122,7 +114,7 @@
         <activity
             android:name=".gpms.ui.PassApplyActivity"
             android:label="@string/title_activity_gpms"
-            android:parentActivityName=".gpms.ui.GpmsActivity" >
+            android:parentActivityName=".gpms.ui.GpmsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".gpms.ui.GpmsActivity" />
@@ -130,7 +122,7 @@
         <activity
             android:name=".gpms.ui.PendingPassActivity"
             android:label="@string/title_activity_gpms_pending_pass"
-            android:parentActivityName=".gpms.ui.GpmsActivity" >
+            android:parentActivityName=".gpms.ui.GpmsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".gpms.ui.GpmsActivity" />
@@ -138,7 +130,7 @@
         <activity
             android:name=".gpms.ui.PassHistoryActivity"
             android:label="@string/title_activity_gpms_pass_history"
-            android:parentActivityName=".gpms.ui.GpmsActivity" >
+            android:parentActivityName=".gpms.ui.GpmsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".gpms.ui.GpmsActivity" />
@@ -146,7 +138,7 @@
         <activity
             android:name=".news.NewsActivity"
             android:label="@string/title_activity_news"
-            android:parentActivityName=".landing.Landing" >
+            android:parentActivityName=".landing.Landing">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".landing.Landing" />
@@ -154,7 +146,7 @@
         <activity
             android:name=".bugs.BugReport"
             android:label="@string/title_activity_bug_report"
-            android:parentActivityName=".landing.Landing" >
+            android:parentActivityName=".landing.Landing">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".landing.Landing" />
@@ -170,10 +162,18 @@
 
         <service android:name=".announcements.AnnouncementsMessagingService">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>

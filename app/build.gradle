@@ -87,6 +87,7 @@ dependencies {
     compile 'backport-util-concurrent:backport-util-concurrent:3.1'
     compile 'commons-codec:commons-codec:1.10'
     compile 'com.niranjan.ln:ln:1.1.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
     apt 'com.github.hotchemi:permissionsdispatcher-processor:2.0.1'
 }
 
